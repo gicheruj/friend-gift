@@ -47,12 +47,12 @@ export default function Animation({ onNext }) {
       `}</style>
 
       {/* Lottie animation */}
-      <div style={{ width: 280, zIndex: 1 }}>
+      <div style={{ width: 500, zIndex: 1 }}>
         <Lottie animationData={birthdayAnimation} loop />
       </div>
 
       {/* Subtitle text */}
-      <p style={{
+      {/* <p style={{
         marginTop: '0.5rem',
         fontStyle: 'italic',
         color: '#b04070',
@@ -64,7 +64,7 @@ export default function Animation({ onNext }) {
         zIndex: 1,
       }}>
         Just for you...
-      </p>
+      </p> */}
 
       {/* Progress bar */}
       <div style={{
